@@ -1,17 +1,15 @@
 <?php
+
+    // Deklarasi variabel dan array
     $pesan = "Selamat belajar";
-    $cars = array("Volvo","BMW","Toyota");
+    $cars = array("Volvo", "BMW", "Toyota");
     $x = 1001;
     $y = 50;
 
-    if ($x == 100 or $y == 80) {
-    echo "Hello world <br>";
-    } else if ($x == 10 or $y == 80) {
-    echo "program selesai <br>";
-    } else
-    echo "kamu bodoh <br>";
-
-    //echo "Selamat datang ".$pesan;
-    echo $cars[2];
+    // Menampilkan isi variabel dan elemen array
+    echo $pesan . "<br>";
+    echo $cars[2] . "<br>";
+    echo "Nilai x: " . $x . "<br>";
+    echo "Nilai y: " . $y;
 
 ?>

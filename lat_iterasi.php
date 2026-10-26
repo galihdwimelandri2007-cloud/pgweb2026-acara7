@@ -1,19 +1,24 @@
 <?php
-$i = 1; // Initialize counter
-while ($i < 10000) { // Check condition
-    echo $i; // Execute code
-    $i = $i + 1; //$i++; // Increment counter
-}
+    // Mengulang angka menggunakan while
+    $i = 1;
 
-for($i=1; $i<100; $i++){
-    echo $i."<br>";
-}
+    while ($i < 10000) {
+        echo $i . "<br>";
+        $i++; }
 
-$colors = array("red", "green", "blue", "yellow");
+    // Mengulang angka menggunakan for
+    for ($i = 1; $i < 100; $i++) {
+        echo $i . "<br>";}
 
-foreach ($colors as $value) {
-  echo "$value <br>";
-}
-for($i=0; $i<4; $i++){
-    echo $colors[$i]."<br>";
-}
+    // Mendefinisikan array berisi nama warna
+    $colors = array("red", "green", "blue", "yellow");
+
+    // Menampilkan elemen array menggunakan foreach
+    foreach ($colors as $value) {
+        echo $value . "<br>"; }
+
+    // Menampilkan elemen array berdasarkan indeks
+    for ($i = 0; $i < count($colors); $i++) {
+        echo $colors[$i] . "<br>"; }
+
+?>
