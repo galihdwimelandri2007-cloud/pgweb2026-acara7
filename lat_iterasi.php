@@ -2,7 +2,7 @@
     // Mengulang angka menggunakan while
     $i = 1;
 
-    while ($i < 10000) {
+    while ($i < 100) {
         echo $i . "<br>";
         $i++; }
 
